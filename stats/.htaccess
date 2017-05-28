@@ -1,0 +1,5 @@
+AuthType Basic
+AuthName "801divorce.com Statistics"
+AuthUserFile /var/chroot/home/content/19/7963119/html/stats/.statspwd
+Require valid-user
+DirectoryIndex index.html

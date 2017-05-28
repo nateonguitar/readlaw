@@ -1,0 +1,166 @@
+.pods_tinymce .form.tinymce_desc,
+.pods_tinymce .content {
+	margin: 0;
+	width: 100%;
+}
+
+.pods_tinymce .editorcontainer .content,
+.pods_tinymce .editorcontainer .theHtmlContent,
+.pods_tinymce .editorcontainer .theEditor {
+	padding: 6px;
+	line-height: 150%;
+	border: 0 none;
+	outline: none;
+	resize: vertical;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-khtml-box-sizing: border-box;
+	box-sizing: border-box;
+    margin: 0;
+    width: 100%;
+}
+
+.pods_tinymce .editorcontainer,
+.pods_tinymce .quicktags {
+	border-style: solid;
+	border-width: 1px;
+	border-collapse: separate;
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-top-right-radius: 6px;
+	-webkit-border-top-left-radius: 6px;
+	-khtml-border-top-right-radius: 6px;
+	-khtml-border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+}
+
+.pods_tinymce .quicktags {
+	padding: 0;
+	margin-bottom: -3px;
+	border-bottom-width: 3px;
+	background-image: url("../../../../wp-admin/images/ed-bg.gif");
+	background-position: left top;
+	background-repeat: repeat-x;
+}
+
+.pods_tinymce .quicktags .ed_toolbar {
+	padding: 2px 4px 0;
+}
+
+.pods_tinymce .ed_toolbar input,
+.pods_tinymce .ed_reply_toolbar input {
+	margin: 3px 1px 4px;
+	line-height: 18px;
+	display: inline-block;
+	min-width: 26px;
+	padding: 2px 4px;
+	font-size: 12px;
+}
+
+.pods_tinymce .ed_reply_toolbar input {
+	margin: 1px 2px 1px 1px;
+}
+
+.pods_tinymce .quicktags .ed_link,
+.pods_tinymce .ed_reply_toolbar .ed_reply_link {
+	text-decoration: underline;
+}
+
+.pods_tinymce .quicktags #ed_del,
+.pods_tinymce .ed_reply_toolbar .ed_reply_del {
+	text-decoration: line-through;
+}
+
+.pods_tinymce .quicktags .ed_em,
+.pods_tinymce .ed_reply_toolbar .ed_reply_em {
+	font-style: italic;
+}
+
+.pods_tinymce .ed_toolbar input,
+.pods_tinymce .ed_reply_toolbar input {
+	background: #fff url("../../../../wp-admin/images/fade-butt.png") repeat-x 0 -2px;
+}
+
+/* editors */
+.pods_tinymce .quicktags {
+	border-color: #dfdfdf;
+	background-color: #dfdfdf;
+}
+
+.pods_tinymce .ed_toolbar input {
+	border-color: #C3C3C3;
+}
+
+.pods_tinymce .ed_toolbar input:hover {
+	border-color: #aaa;
+	background: #ddd;
+}
+
+.pods_tinymce .wp_themeSkin .mceStatusbar {
+	border-color: #EDEDED;
+}
+
+.pods_tinymce .edButtonPreview,
+.pods_tinymce .edButtonHTML {
+	background-color: #f1f1f1;
+	border-color: #dfdfdf;
+	color: #999;
+}
+
+.pods_tinymce .edButtonPreview,
+.pods_tinymce .edButtonHTML {
+	height: 18px;
+	margin: 3px 5px 0 0;
+	padding: 4px 5px 2px;
+	float: right;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	-moz-border-radius: 3px 3px 0 0;
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-top-left-radius: 3px;
+	-khtml-border-top-right-radius: 3px;
+	-khtml-border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.pods_tinymce .editor-toolbar .active {
+	border-bottom-color: #e9e9e9;
+	background-color: #e9e9e9;
+	color: #333;
+}
+
+.pods_tinymce .editorcontainer {
+	border-color: #dfdfdf;
+}
+
+.pods_tinymce .edButtonHTML {
+	margin-right: 15px;
+}
+
+.pods_tinymce .media-buttons {
+	cursor: default;
+	padding: 8px 8px 0;
+}
+
+.pods_tinymce .media-buttons a {
+	cursor: pointer;
+	padding: 0 0 5px 10px;
+}
+
+.pods_tinymce .media-buttons img {
+	vertical-align: middle;
+}
+
+.pods_tinymce #ed_strong {
+        font-weight: bold;
+}
+
+.pods_tinymce #ed_em {
+        font-style: italic;
+}
+
+.pods_tinymce #ed_link {
+        color:#0000FF;
+}
